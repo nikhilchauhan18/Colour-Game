@@ -6,12 +6,27 @@
 body {
     font-family: "poppins", sans-serif;
     margin: 0;
-    min-height: 100vh;
+    max-height: 100vh;
     background-color: #232323;
 }
 
+.header {
+    height: 200px;
+    background-color:rgb(189, 131, 224);
+    /* background-color: rgba(255, 70, 200); */
+    text-align: center;
+    text-transform: uppercase;
+}
+
+span{
+    font-size:60px;
+}
 h1{
+    margin: 0;
     color: white;
+    font-size: 40px;
+    padding:20px 0;
+    line-height: 1.1;
 }
 .content{
     margin:0 auto;
@@ -24,5 +39,41 @@ h1{
     margin: 1.66%;
     padding-bottom: 30%;
     float: left;
-    border-radius:10px
+    border-radius:30px;
+    cursor: pointer;
+}
+
+.options{
+    background-color:white;
+    font-size: 16px;
+    display: flex;
+}
+
+.message{
+    margin: 0 auto;
+}
+
+.reset{
+    margin: 0 auto;
+}
+
+.mode{
+    margin: 0 auto;
+}
+
+button{
+    border: none;
+    font-size: 18px;
+    padding:0 0;
+    cursor: pointer;
+    background-color:white;
+    color:rgb(189, 131, 224);
+    font-weight: bold;
+
+}
+
+.selected{
+    background-color: rgb(189, 131, 224);
+    padding: 4px;
+    color: white;
 }
